@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(207, 219, 228);
+}
+
+.title {
+  color: chocolate;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 500;
+  font-family: fantasy;
+}
+
+div.links-container {
+  width: 75%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+a.initial-links {
+  display: inline-block;
+  margin: 0px 20px;
+  padding: 10px;
+  background-color: tomato;
+  border: 1px solid tomato;
+  text-decoration: none;
+  color: rgb(49, 117, 196);
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0px 0px black;
+}
