@@ -13,27 +13,49 @@ body {
 .title {
   color: chocolate;
   text-align: center;
-  font-size: 55px;
+  font-size: 75px;
   font-weight: 500;
   font-family: fantasy;
 }
 
 div.links-container {
-  width: 75%;
-  margin: 0px auto;
+  width: 95%;
+  margin: 15px auto;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.link {
+  border: 1px solid black;
+  display: grid;
+  margin: 15px;
+  background-color: rgb(206, 138, 126);
+  border-radius: 25px;
+  box-shadow: 3px 3px rgb(83, 82, 82);
 }
 
 a.initial-links {
-  display: inline-block;
-  margin: 0px 20px;
   padding: 10px;
   background-color: tomato;
   border: 1px solid tomato;
   text-decoration: none;
-  color: rgb(49, 117, 196);
-  font-size: 25px;
+  color: rgb(28, 64, 104);
+  font-size: 20px;
   font-weight: bold;
   border-radius: 20px;
-  box-shadow: 5px 5px 0px 0px black;
+  box-shadow: 3px 3px 0px 0px black;
+  margin: 10px;
+  transition: all 300ms;
+}
+
+a.initial-links:hover {
+  opacity: 0.75;
+}
+
+.link-photo {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
 }
