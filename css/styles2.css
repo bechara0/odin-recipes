@@ -1,7 +1,9 @@
 body {
-  line-height: 1.5;
-  margin: 0 10px;
-  
+  line-height: 1.9;
+  margin: 0 auto;
+  width: 75%;
+  background-color: lightgray;
+}
 
 h1 {
   text-align: center;
@@ -17,6 +19,7 @@ div.img-div {
 
 .photo {
   width: 450px;
+  box-shadow: 8px 8px 5px coral;
 }
 
 h3 {
